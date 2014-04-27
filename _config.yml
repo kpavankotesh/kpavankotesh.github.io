@@ -1,0 +1,5 @@
+name: Pakoman
+markdown: redcarpet
+pygments: true
+paginate: 8
+title: PaKo

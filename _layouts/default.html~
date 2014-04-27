@@ -1,0 +1,32 @@
+{% include header.html %}
+	<div class="container">
+	<div class="row">
+		<div class="col-md-6">	
+		<h1><a href="/" id="pakoman">Pakoman</a></h1> </div>
+		<div class="col-md-3"></div>
+		<div class="col-md-3">	
+		<ul class="nav nav-pills">		
+			<li class="active"><a href="/" data-toggle="tab"><i class="fa fa-home fa-2x"></i></a> </li>
+			<li><a href="/blog.html" data-toggle="tab"><i class="fa fa-pencil-square-o fa-2x"></i></a> </li>
+			<li><a href="#message" data-toggle="tab"><i class="fa fa-folder-open fa-2x"></i></a></li>
+		</ul>
+		</div>
+	</div>
+	</div>
+	<div class="container"><hr> 
+	<div class="row">
+		<div class="col-md-3">	
+			<img src="https://avatars1.githubusercontent.com/u/1728799?s=460" alt="Pavan Kotesh" class="img-rounded"  height="190" width= "190" style="float:left;" id="profilepic"> </div>
+		<div class="col-md-9">	<br>
+			<blockquote class="blockquote-reverse"><p><i class="fa fa-quote-left fa-2x"></i>  He who learns but does not think, is lost! He who thinks but does not learn is in great danger</p><footer>Confucius</footer> </blockquote> 
+		</div>
+	</div>
+		<div class="row">
+			<div class="col-md-3">	</div>
+			<div class="col-md-9">	
+				{{ content }}
+			</div>	
+		</div>
+		<hr>
+	</div>
+

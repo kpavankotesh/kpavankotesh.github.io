@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">        
+	<title>
+		{{ page.title }}
+	</title>
+        
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+	<!-- Adding Twitter Bootstrap & Fontawesome CDN -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div class="container">
+                <h1><a href="/"><small><i class="fa fa-rub fa-3x"></i></small></a>Pakoman</h1>
+        	<ul class="list-inline">
+  			<li><a href="/">Home</a></li>
+			<li><a href="/">About</a></li>
+		</ul>
+		<blockquote class="blockquote-reverse"><p>"He who learns but does not think, is lost! He who thinks but does not learn is in great danger"</p><footer>-Confucius</footer> </blockquote>
+
+        	<div class="row">
+			<div class="col-md-4">Pavan Kotesh K</div>  			
+			<div class="col-md-8">{{ content }}</div>	
+		</div>
+
+          <hr>
+	  </div>	
+          <div class="container">
+            <table class="table">		
+              <tr>
+                <td>Github</td>
+		<td><a href="https://github.com/kpavankotesh"><i class="fa fa-github fa-2x"></a></td>
+	      </tr>
+	      <tr>
+                <td>Twitter</td>
+		<td><a href="https://twitter.com/kpavankotesh"><i class="fa fa-twitter fa-2x"></a></td>
+	      </tr>
+            </table>
+            
+          </div>
+        
+    </body>
+</html>
