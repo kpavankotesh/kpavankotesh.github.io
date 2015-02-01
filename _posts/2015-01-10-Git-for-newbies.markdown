@@ -48,7 +48,7 @@ Now try *git status*. You should see *modified:   one.txt* in the  **Changes not
 
 Now git remembers all the changes you made in the one.txt file. Now we commit all the changes. You can think a commit as naming a particular set of changes in the project.
 
-	git commit -m "Some message explaining what "
+	git commit -m "Some message explaining what the changes are about"
 
 Try *git log* to check your history. It will show you your first commit. 
 Now you need to send this whole content to the github/bitbucket project. To do that you need to create a new repository in your github account and get the HTTP URL. The url looks something like *https://github.com/username/projectname.git*. We need to tell our local project to this send content to this repository. So we need to add remote address to our project
