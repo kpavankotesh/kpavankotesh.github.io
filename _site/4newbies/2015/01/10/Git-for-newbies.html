@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1">        
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>
 			Pakoman
 		</title>
@@ -18,15 +18,15 @@
 		<script src="/js/bootstrap.min.js"></script>
 		<style>
 			body{
-				background-color:rgb(249, 249, 249); 
+				background-color:rgb(249, 249, 249);
 				font-family: 'Lato','Source Sans Pro', 'sans-serif';
 				font-size: 20px;
 			}
-		
+
 			#newcolor{
 				color:rgb(214, 42, 73);
 			}
-		
+
 			#pakoman{
 				padding: 0px 0px 0px 20px;
 				text-transform:uppercase;
@@ -38,19 +38,19 @@
 			#pakoman:link{
 				text-decoration:none;
 			}
-				
+
 		</style>
 	</head>
-	<body>    
+	<body>
 
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">	
-				<h1><a href="/" id="pakoman">Pakoman</a></h1> 
+			<div class="col-md-6">
+				<h1><a href="/" id="pakoman">Pavan Kotesh</a></h1> 
 			</div>
 			<div class="col-md-3"></div>
-			<div class="col-md-3">	
-				<ul class="nav nav-pills">		
+			<div class="col-md-3">
+				<ul class="nav nav-pills">
 					<li class="active"><a href="/" data-toggle="tab"><i class="fa fa-home fa-2x"></i></a> </li>
 <!--					<li><a href="/blog.html" data-toggle="tab"><i class="fa fa-pencil-square-o fa-2x"></i></a> </li>
 					<li><a href="#message" data-toggle="tab"><i class="fa fa-folder-open fa-2x"></i></a></li> -->
@@ -58,11 +58,11 @@
 			</div>
 		</div>
 	</div>
-	<div class="container"><hr> 
+	<div class="container"><hr>
 		<div class="row">
 			<div class="col-md-3"><img src="https://avatars1.githubusercontent.com/u/1728799?s=460" alt="Pavan Kotesh" class="img-rounded"  height="190" width= "190" style="float:left;" id="profilepic">
 			</div>
-			<div class="col-md-9">	
+			<div class="col-md-9">
 				<h2>Git for Newbies - Part 1</h2>
 				<p>10 Jan 2015</p>
 				<div style="text-align:justify;"><p>Git is a Version control System. Lets say you are writing your resume. You might want to make different versions for different companies/ different job applications with lots of similar content(almost 80%) in each of them. So you will have to create multiple documents with almost 80% of them is same content! That&#39;s where git helps you. It will instead let you create only one document and remembers just the changes made in the different versions. This way we save lot of space and easy to manage data. Not only this, there are lot of other awesome aspects of git. </p>
@@ -86,7 +86,7 @@
 
 <h2>How everything works?</h2>
 
-<p>Lets start with a sample project where we will experiment with git. 
+<p>Lets start with a sample project where we will experiment with git.
 Create a folder(Name it Project1) and add two text files to it(one.txt, two.txt). Now go to terminal and cd to the Project1 folder. So we are in out project folder now. </p>
 
 <p>First of all we need to initialize git in our project. So type the follwing command: </p>
@@ -107,15 +107,15 @@ git add two.txt
 <p>Now git remembers all the changes you made in the one.txt file. Now we commit all the changes. You can think a commit as naming a particular set of changes in the project.</p>
 <div class="highlight"><pre><code class="text language-text" data-lang="text">git commit -m &quot;Some message explaining what the changes are about&quot;
 </code></pre></div>
-<p>Try <em>git log</em> to check your history. It will show you your first commit. 
+<p>Try <em>git log</em> to check your history. It will show you your first commit.
 Now you need to send this whole content to the github/bitbucket project. To do that you need to create a new repository in your github account and get the HTTP URL. The url looks something like <em>https://github.com/username/projectname.git</em>. We need to tell our local project to this send content to this repository. So we need to add remote address to our project</p>
 <div class="highlight"><pre><code class="text language-text" data-lang="text">git remote add origin https://github.com/username/projectname.git
 </code></pre></div>
 <p>Type <em>git remote -v</em> to confirm you have successfully added the remote address to your project
 Now we need to send our commits to remote repository. </p>
-<div class="highlight"><pre><code class="text language-text" data-lang="text">git push -u origin master 
+<div class="highlight"><pre><code class="text language-text" data-lang="text">git push -u origin master
 </code></pre></div>
-<p>Type your username and password of github/bitbucket when prompted. Then it pushes the whole content to remote repo. That&#39;s it! Now you have your repository on github and you can take it anytime, anywhere to any computer and start working on your project. You need not to carry your project everywhere you go. 
+<p>Type your username and password of github/bitbucket when prompted. Then it pushes the whole content to remote repo. That&#39;s it! Now you have your repository on github and you can take it anytime, anywhere to any computer and start working on your project. You need not to carry your project everywhere you go.
 To get the project you just need to clone your project from your remote url </p>
 <div class="highlight"><pre><code class="text language-text" data-lang="text">git clone https://github.com/username/projectname.git
 </code></pre></div>
@@ -126,7 +126,4 @@ To get the project you just need to clone your project from your remote url </p>
 			<div class="g-person" data-width="273" data-href="//plus.google.com/u/0/111156235683880885844" data-theme="dark" data-layout="landscape" data-rel="author"></div>
 
 		</div>
-	</div>	
-	
-
-
+	</div>
